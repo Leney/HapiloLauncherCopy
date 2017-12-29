@@ -1,0 +1,11 @@
+include ':app'
+/*include ':hapiloAccount'
+project(':hapiloAccount').projectDir = new File("../HapiloAccount", 'hapiloAccount')*/
+
+include ':hapiloImService'
+
+/*include ':ZkImClient'
+project(':ZkImClient').projectDir = new File("../ZkImClientSdk", 'ZkImClient')*/
+/*include ':hapilolocalchatmessage'
+project(':hapilolocalchatmessage').projectDir = new File("../HapiloLocalMessage", 'hapilolocalchatmessage')*/
+
